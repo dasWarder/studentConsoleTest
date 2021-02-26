@@ -3,11 +3,13 @@ package service.testing;
 import model.Person;
 import model.Tester;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import util.ConsoleHelper;
 
 import java.util.Map;
 import java.util.Scanner;
 
+@Service
 public class TestService implements Test {
     private Tester tester;
 

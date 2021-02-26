@@ -21,7 +21,7 @@ public class Main {
 
         service.populate("C:\\Users\\Andrey\\IdeaProjects\\ConsoleStudentTest\\src\\main\\resources\\test.csv");
         testService.test(person);
-        ConsoleHelper.printMessage("The result for student " + person.getName() + " " + person.getSurname() + " :");
+        ConsoleHelper.printMessage("The result for student " + person.getName() + " " + person.getSurname() + ":");
         ConsoleHelper.printMessage(person.getResult() + " points from 5");
     }
 

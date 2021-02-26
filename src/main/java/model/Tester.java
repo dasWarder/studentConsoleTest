@@ -3,7 +3,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.*;
 
-
+@Component
 public class Tester {
     private Map<String, String[]> questions = new LinkedHashMap<>();
 
